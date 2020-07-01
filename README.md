@@ -67,7 +67,7 @@ Tips:
 * If you faced race condition (build/test with -race flag) - examine cli output - there must be useful info to debug the race error
 * Before paralelize all the things you should write linear bold code that performs correct calculations. Then parallel it
 * you can expect that there might be not more than 100 input elements.
-* Answer to question "when is closing chanel loop?" helps to implement ExecutePipeline function
+* Answer to question "when chanel loop is closing?" helps to implement ExecutePipeline function
 * Answer to question "am I need results of previous calculations?" helps to parallelize SingleHash & MultiHash
 * It may be useful to make some chart of calculations
 * It may be useful to take a look at test code to understand how's test will be performed
